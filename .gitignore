@@ -1,0 +1,136 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# Environments
+.env
+.env.local
+.env.*.local
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Model files (large binary files)
+*.pth
+*.ckpt
+*.pt
+*.safetensors
+*.bin
+*.onnx
+*.pb
+
+# Data directories
+data/
+datasets/
+outputs/
+checkpoints/
+logs/
+wandb/
+
+# Media files (outputs)
+*.mp4
+*.avi
+*.mov
+*.wav
+*.mp3
+*.jpg
+*.jpeg
+*.png
+*.gif
+!docs/**/*.png
+!docs/**/*.jpg
+!docs/**/*.gif
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Documentation builds
+docs/_build/
+site/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Node (if using any JS tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Reallusion project files (potentially large)
+*.iProject
+*.ccProject
+*.rlContent
